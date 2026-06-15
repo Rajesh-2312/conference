@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "ACCES-2025 — 3rd International Conference on Advances in Communications, Computing & Electronic Systems",
+  "description": "ICICSCET 2026 — 3rd International Conference on Intelligent Computing, Secure Communications & Emerging Technologies",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
