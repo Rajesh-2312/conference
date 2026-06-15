@@ -5,6 +5,8 @@ import {
   Cpu,
   Radio,
   Brain,
+  Wifi,
+  ShieldCheck,
   type LucideIcon,
 } from "lucide-react";
 
@@ -15,6 +17,8 @@ const map: Record<string, LucideIcon> = {
   cpu: Cpu,
   radio: Radio,
   brain: Brain,
+  wifi: Wifi,
+  shield: ShieldCheck,
 };
 
 export default function Icon({

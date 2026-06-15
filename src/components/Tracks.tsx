@@ -7,7 +7,7 @@ export default function Tracks() {
   return (
     <section id="tracks" className="py-20 sm:py-22">
       <div className="container-x">
-        <SectionHead eyebrow="Research Tracks" title="Three areas of focus" />
+        <SectionHead eyebrow="Research Tracks" title="Five areas of focus" />
 
         <div className="grid gap-6 md:grid-cols-3">
           {tracks.map((t, i) => (

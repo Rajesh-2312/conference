@@ -19,7 +19,7 @@ export const conference = {
   location: "Guntur, Andhra Pradesh, India",
   technicalSponsor: "UCSI University, Kuala Lumpur, Malaysia",
   technicalPartner: "Lived Edutech Services",
-  submissionEmail: "acces2025@malinenicolleges.ac.in",
+  submissionEmail: "ICICSCET2026@malinenicolleges.ac.in",
   submissionDeadline: "19 November 2026",
   // ISO for the live countdown (end of day, IST)
   submissionDeadlineISO: "2026-11-19T23:59:59+05:30",
@@ -105,41 +105,47 @@ export type Track = {
 export const tracks: Track[] = [
   {
     icon: "cpu",
-    title: "Electronics",
+    title: "Track 1 — VLSI & Embedded Systems",
     topics: [
-      "Biomedical electronics",
-      "Embedded systems & monitoring systems",
-      "Low-power design",
-      "ASIC / FPGA / VLSI design",
-      "System-on-Chip & CAD tools",
-      "Mechanical control systems & mechatronics",
-      "Civil engineering design applications",
+      "VLSI Design and Verification",
+      "Embedded Systems and IoT Hardware",
+      "FPGA and System-on-Chip Design",
     ],
   },
   {
     icon: "radio",
-    title: "Communication Systems & Signal Processing",
+    title: "Track 2 — Communications & Signal Processing",
     topics: [
-      "Cellular & 5G networks",
-      "Sensor networks & cloud networking",
-      "Satellite & optical communications",
-      "Wireless technologies & IoT",
-      "Audio / speech / image processing",
-      "Biomedical signal processing",
-      "Pattern recognition & RF circuits",
+      "Wireless and Mobile Communications",
+      "Signal, Image and Speech Processing",
+      "5G/6G and Next-Generation Networks",
+    ],
+  },
+  {
+    icon: "wifi",
+    title: "Track 3 — Internet of Things (IoT)",
+    topics: [
+      "IoT Architectures and Applications",
+      "Edge and Cloud Computing",
+      "Smart Cities and Industrial IoT",
     ],
   },
   {
     icon: "brain",
-    title: "Computing Models",
+    title: "Track 4 — Artificial Intelligence & Machine Learning",
     topics: [
-      "Artificial intelligence & machine learning",
-      "Deep learning",
-      "Cloud / quantum / grid computing",
-      "Bioinformatics",
-      "Smart cities & smart grids",
-      "Multi-agent systems & assistive technologies",
-      "Knowledge engineering, fuzzy logic, multimedia",
+      "Deep Learning and Data Analytics",
+      "Computer Vision and NLP",
+      "AI Applications and Intelligent Systems",
+    ],
+  },
+  {
+    icon: "shield",
+    title: "Track 5 — Cybersecurity & Blockchain",
+    topics: [
+      "Network and Information Security",
+      "Blockchain Technologies",
+      "Privacy and Secure Computing",
     ],
   },
 ];
@@ -304,7 +310,7 @@ export const contacts = [
     title: "Head — Department of ECE, MLEW, Guntur, A.P., India",
     phone: "+91-90522 22407",
     phoneHref: "+919052222407",
-    email: "acces2025@malinenicolleges.ac.in",
+    email: "ICICSCET2026@malinenicolleges.ac.in",
   },
   {
     tag: "Program Chair",
@@ -312,6 +318,6 @@ export const contacts = [
     title: "KLH, Aziz Nagar Campus, Hyderabad",
     phone: "+91-99850 54084",
     phoneHref: "+919985054084",
-    email: "acces2025@malinenicolleges.ac.in",
+    email: "ICICSCET2026@malinenicolleges.ac.in",
   },
 ];
