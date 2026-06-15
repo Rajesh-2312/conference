@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "ICICSCET 2026 — 3rd International Conference on Intelligent Computing, Secure Communications & Emerging Technologies",
+  "description": "ICICSCET 2026 — 4th International Conference on Intelligent Computing, Secure Communications & Emerging Technologies",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

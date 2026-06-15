@@ -10,7 +10,7 @@
 
 export const conference = {
   shortName: "ICICSCET 2026",
-  edition: "3rd",
+  edition: "4th",
   fullName:
     "International Conference on Intelligent Computing, Secure Communications and Emerging Technologies",
   date: "19 December 2026",
