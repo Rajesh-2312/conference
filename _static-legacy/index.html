@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ACCES-2025 — 3rd International Conference on Advances in Communications, Computing & Electronic Systems. 26 April 2025, Hybrid. Hosted by Malineni Lakshmaiah Women's Engineering College, Guntur, India." />
+  <title>ACCES-2025 | 3rd Intl. Conference on Advances in Communications, Computing & Electronic Systems</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235b7cff'/%3E%3Cstop offset='.5' stop-color='%238a5bff'/%3E%3Cstop offset='1' stop-color='%232fd6c6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='white' text-anchor='middle'%3EA25%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Top announcement bar ===== -->
+  <div class="topbar" id="topbar">
+    <div class="container topbar__inner">
+      <span class="topbar__pill">Hybrid&nbsp;Mode</span>
+      <span class="topbar__text">Paper submission deadline — <strong>20 March 2025</strong></span>
+      <a class="topbar__link" href="mailto:acces2025@malinenicolleges.ac.in">Submit your paper →</a>
+    </div>
+  </div>
+
+  <!-- ===== Header / Nav ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="brand">
+        <span class="brand__mark">A<span>·</span>25</span>
+        <span class="brand__text">
+          <strong>ACCES-2025</strong>
+          <small>Advances in Communications, Computing &amp; Electronic Systems</small>
+        </span>
+      </a>
+
+      <nav class="nav__menu" id="navMenu" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#cfp">Call for Papers</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#publication">Publication</a>
+        <a href="#registration">Registration</a>
+        <a href="#committee">Committee</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+        <a href="mailto:acces2025@malinenicolleges.ac.in" class="btn btn--sm btn--primary nav__cta">Submit Paper</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="orb orb--1"></span>
+      <span class="orb orb--2"></span>
+      <span class="orb orb--3"></span>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="badge">3<sup>rd</sup> International Conference</span>
+        <h1 class="hero__title">
+          Advances in <span class="gradient-text">Communications, Computing</span> &amp; Electronic Systems
+        </h1>
+        <p class="hero__sub">
+          A global platform for researchers, engineers, academicians and professionals to
+          share groundbreaking research across sustainable electronics, computing models and
+          communication technologies.
+        </p>
+
+        <ul class="hero__facts">
+          <li><span class="hero__facticon">📅</span><div><strong>26 April 2025</strong><small>Conference Day</small></div></li>
+          <li><span class="hero__facticon">🌐</span><div><strong>Hybrid Mode</strong><small>On-site &amp; Online</small></div></li>
+          <li><span class="hero__facticon">📍</span><div><strong>MLEW, Guntur</strong><small>Andhra Pradesh, India</small></div></li>
+        </ul>
+
+        <div class="hero__cta">
+          <a href="#cfp" class="btn btn--primary btn--lg">Call for Papers</a>
+          <a href="#registration" class="btn btn--ghost btn--lg">Register Now</a>
+        </div>
+
+        <div class="hero__hosts">
+          <span>Hosted by <strong>Malineni Lakshmaiah Women's Engineering College</strong> (Autonomous)</span>
+          <span class="dot">•</span>
+          <span>Technical Sponsor <strong>UCSI University, Malaysia</strong></span>
+        </div>
+      </div>
+
+      <!-- Countdown card -->
+      <aside class="countdown-card reveal" aria-label="Countdown to submission deadline">
+        <p class="countdown-card__label">Submission closes in</p>
+        <div class="countdown" id="countdown">
+          <div class="countdown__unit"><span id="cd-days">--</span><small>Days</small></div>
+          <div class="countdown__unit"><span id="cd-hours">--</span><small>Hours</small></div>
+          <div class="countdown__unit"><span id="cd-mins">--</span><small>Min</small></div>
+          <div class="countdown__unit"><span id="cd-secs">--</span><small>Sec</small></div>
+        </div>
+        <div class="countdown-card__deadline">
+          <span>Deadline</span>
+          <strong>20 March 2025</strong>
+        </div>
+        <a href="mailto:acces2025@malinenicolleges.ac.in" class="btn btn--primary btn--block">Email your manuscript</a>
+        <p class="countdown-card__note">acces2025@malinenicolleges.ac.in</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== Marquee strip ===== -->
+  <div class="strip">
+    <div class="strip__track">
+      <span>Scopus-Indexed Publication</span><span class="strip__dot">◆</span>
+      <span>Conference Proceedings</span><span class="strip__dot">◆</span>
+      <span>Plagiarism Limit 15%</span><span class="strip__dot">◆</span>
+      <span>International Speakers</span><span class="strip__dot">◆</span>
+      <span>Hybrid Presentation</span><span class="strip__dot">◆</span>
+      <span>UCSI University Sponsored</span><span class="strip__dot">◆</span>
+      <span>Scopus-Indexed Publication</span><span class="strip__dot">◆</span>
+      <span>Conference Proceedings</span><span class="strip__dot">◆</span>
+      <span>Plagiarism Limit 15%</span><span class="strip__dot">◆</span>
+      <span>International Speakers</span><span class="strip__dot">◆</span>
+      <span>Hybrid Presentation</span><span class="strip__dot">◆</span>
+      <span>UCSI University Sponsored</span><span class="strip__dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">About the Conference</span>
+        <h2>A premier academic &amp; industry-focused event</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__lead reveal">
+          <p>
+            <strong>ACCES-2025</strong> aims to address transformative trends by fostering
+            collaboration and disseminating groundbreaking research in communications, computing
+            and electronic systems. The conference brings together research focused on
+            <em>sustainable electronics, computing models and communication technologies</em> to
+            develop novel solutions for emerging challenges.
+          </p>
+          <p>
+            Held in <strong>hybrid mode</strong> on <strong>26 April 2025</strong>, it serves as a
+            global meeting point for researchers, engineers, academicians and professionals from
+            across the world.
+          </p>
+        </div>
+
+        <div class="about__cards">
+          <article class="info-card reveal">
+            <h3>Host — MLEW</h3>
+            <p>
+              Malineni Lakshmaiah Women's Engineering College, founded in <strong>2008</strong> to
+              advance women's technical education. AICTE-approved, ISO 9001:2015 certified and
+              affiliated with JNTU-K. The campus features computer centres, libraries, advanced
+              labs, seminar halls and digital classrooms.
+            </p>
+          </article>
+          <article class="info-card reveal">
+            <h3>Technical Sponsor — UCSI University</h3>
+            <p>
+              Ranked <strong>265<sup>th</sup></strong> in the QS World University Rankings 2025 and
+              among the top 1% of universities worldwide for the third consecutive year. Also ranked
+              <strong>61<sup>st</sup></strong> in the QS Asia University Rankings 2024.
+            </p>
+          </article>
+          <article class="info-card reveal">
+            <h3>Technical Partner</h3>
+            <p>
+              <strong>Lived Edutech Services</strong> serves as the official technical partner for
+              organizing the conference, supporting submissions, review and proceedings.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Call for Papers ===== -->
+  <section class="section section--alt" id="cfp">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Call for Papers</span>
+        <h2>Submit your original research</h2>
+        <p class="section__intro">
+          The conference invites original, unpublished manuscripts. Authors submit directly by
+          email; accepted &amp; presented papers appear in the conference proceedings, with select
+          papers in Scopus-indexed venues.
+        </p>
+      </div>
+
+      <div class="cfp__grid">
+        <div class="cfp__format reveal">
+          <h3>Manuscript guidelines</h3>
+          <ul class="checklist">
+            <li>A4 page format, <strong>single column</strong> layout</li>
+            <li><strong>11-point</strong> Times New Roman font</li>
+            <li><strong>1.5</strong> line spacing</li>
+            <li>Submit as a <strong>Microsoft Word</strong> document</li>
+            <li>Numbered referencing style (<strong>not</strong> APA)</li>
+            <li>Length: <strong>12–15 pages</strong> maximum</li>
+            <li>Abstract of <strong>150–200 words</strong></li>
+          </ul>
+          <a href="mailto:acces2025@malinenicolleges.ac.in?subject=ACCES-2025%20Paper%20Submission" class="btn btn--primary">Email manuscript →</a>
+          <p class="muted-note">Send to acces2025@malinenicolleges.ac.in</p>
+        </div>
+
+        <div class="cfp__dates reveal">
+          <h3>Important dates</h3>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__date">20 March 2025</span>
+              <span class="timeline__event">Last date for submission of papers / articles</span>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__date">After review</span>
+              <span class="timeline__event">Notification of acceptance (two reviewers)</span>
+            </li>
+            <li class="timeline__item timeline__item--accent">
+              <span class="timeline__date">26 April 2025</span>
+              <span class="timeline__event">Conference day — Hybrid presentations</span>
+            </li>
+          </ol>
+          <div class="callout">
+            <strong>Plagiarism policy:</strong> All submissions are screened. Acceptable similarity
+            limit is <strong>15%</strong>; articles exceeding it face immediate rejection.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Tracks ===== -->
+  <section class="section" id="tracks">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Research Tracks</span>
+        <h2>Three areas of focus</h2>
+      </div>
+
+      <div class="tracks__grid">
+        <article class="track-card reveal">
+          <div class="track-card__icon">⚙️</div>
+          <h3>Electronics</h3>
+          <ul>
+            <li>Biomedical electronics</li>
+            <li>Embedded systems &amp; monitoring systems</li>
+            <li>Low-power design</li>
+            <li>ASIC / FPGA / VLSI design</li>
+            <li>System-on-Chip &amp; CAD tools</li>
+            <li>Mechanical control systems &amp; mechatronics</li>
+            <li>Civil engineering design applications</li>
+          </ul>
+        </article>
+
+        <article class="track-card reveal">
+          <div class="track-card__icon">📡</div>
+          <h3>Communication Systems &amp; Signal Processing</h3>
+          <ul>
+            <li>Cellular &amp; 5G networks</li>
+            <li>Sensor networks &amp; cloud networking</li>
+            <li>Satellite &amp; optical communications</li>
+            <li>Wireless technologies &amp; IoT</li>
+            <li>Audio / speech / image processing</li>
+            <li>Biomedical signal processing</li>
+            <li>Pattern recognition &amp; RF circuits</li>
+          </ul>
+        </article>
+
+        <article class="track-card reveal">
+          <div class="track-card__icon">🧠</div>
+          <h3>Computing Models</h3>
+          <ul>
+            <li>Artificial intelligence &amp; machine learning</li>
+            <li>Deep learning</li>
+            <li>Cloud / quantum / grid computing</li>
+            <li>Bioinformatics</li>
+            <li>Smart cities &amp; smart grids</li>
+            <li>Multi-agent systems &amp; assistive technologies</li>
+            <li>Knowledge engineering, fuzzy logic, multimedia</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Speakers ===== -->
+  <section class="section section--alt" id="speakers">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Keynote Speakers</span>
+        <h2>Distinguished voices</h2>
+      </div>
+
+      <div class="speakers__grid">
+        <article class="speaker-card reveal">
+          <div class="speaker-card__avatar">RK</div>
+          <h3>Dr. Raenu A/L Kolandaisamy</h3>
+          <p class="speaker-card__role">Director</p>
+          <p class="speaker-card__org">UCSI University, Kuala Lumpur, Malaysia</p>
+        </article>
+
+        <article class="speaker-card reveal">
+          <div class="speaker-card__avatar">GG</div>
+          <h3>Prof. George Ghinea</h3>
+          <p class="speaker-card__role">Professor — Mulsemedia Computing</p>
+          <p class="speaker-card__org">Brunel University of London, United Kingdom</p>
+        </article>
+
+        <article class="speaker-card reveal">
+          <div class="speaker-card__avatar">PC</div>
+          <h3>Dr. Prasenjit Chatterjee</h3>
+          <p class="speaker-card__role">Dean R&amp;D — Series Editor (Scrivener, Wiley, CRC)</p>
+          <p class="speaker-card__org">MCKV Institute of Engineering, India</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Publication ===== -->
+  <section class="section" id="publication">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Publication</span>
+        <h2>Where your work appears</h2>
+      </div>
+
+      <div class="pub__grid">
+        <div class="pub__process reveal">
+          <h3>Review &amp; publication process</h3>
+          <p>
+            The conference requires original, unpublished research. All submissions undergo
+            plagiarism screening with an acceptable limit of <strong>15%</strong> — articles
+            exceeding this threshold face immediate rejection. Non-plagiarized submissions go to
+            <strong>two reviewers</strong>; the convenor and programme committee make acceptance
+            decisions based on reviewer feedback.
+          </p>
+          <p>
+            Accepted and presented papers appear in <strong>Conference Proceedings</strong>, with
+            select papers published in <strong>Scopus-indexed</strong> venues.
+          </p>
+          <div class="callout callout--info">
+            <strong>Note:</strong> Authors have to pay the APC applicable as per the journal
+            guidelines for journal publication.
+          </div>
+          <p class="muted-note">Previous proceedings: printorders.aip.org/proceedings/2794</p>
+        </div>
+
+        <div class="pub__journals reveal">
+          <h3>Tentative partner journals</h3>
+          <article class="journal-card">
+            <h4>International Journal of Sensors, Wireless Communications and Control</h4>
+            <div class="tags"><span>Scopus</span><span>Google Scholar</span></div>
+            <p>Special issue for ACCES-2025 selected papers.</p>
+          </article>
+          <article class="journal-card">
+            <h4>Intelligent Automation &amp; Soft Computing</h4>
+            <div class="tags"><span>Scopus</span><span>Google Scholar</span></div>
+            <p>Special issue on 5G networks security.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Registration ===== -->
+  <section class="section section--alt" id="registration">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Registration</span>
+        <h2>Attend &amp; present</h2>
+      </div>
+
+      <div class="reg__grid">
+        <article class="reg-card reveal">
+          <h3>Presentation modes</h3>
+          <p>
+            Authors may present <strong>on-site</strong> or, if unable to attend physically, use the
+            <strong>video presentation facility</strong> available for the hybrid event.
+          </p>
+        </article>
+        <article class="reg-card reveal">
+          <h3>Visa &amp; travel</h3>
+          <p>
+            The visa process and all related arrangements are to be taken care of by the author
+            themselves.
+          </p>
+        </article>
+        <article class="reg-card reg-card--pending reveal">
+          <h3>Bank details</h3>
+          <p class="pending-pill">Update soon</p>
+          <p>
+            Banking information for registration fees will be published here shortly. Please check
+            back or contact the convenor for the latest details.
+          </p>
+        </article>
+      </div>
+      <p class="reg__contact reveal">
+        Questions about registration? Email
+        <a href="mailto:acces2025@malinenicolleges.ac.in">acces2025@malinenicolleges.ac.in</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Committee ===== -->
+  <section class="section" id="committee">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Organizing Committee</span>
+        <h2>The people behind ACCES-2025</h2>
+      </div>
+
+      <div class="committee">
+        <div class="committee__group reveal">
+          <h3 class="committee__title">Chief Patrons</h3>
+          <ul class="member-list">
+            <li><strong>Dr. Malineni Perumallu</strong><span>Chairman</span></li>
+            <li><strong>Mrs. Madhurima Perumallu</strong><span>Secretary</span></li>
+          </ul>
+        </div>
+
+        <div class="committee__group reveal">
+          <h3 class="committee__title">Patron</h3>
+          <ul class="member-list">
+            <li><strong>Dr. J. Appa Rao</strong><span>Principal, MLEW</span></li>
+          </ul>
+        </div>
+
+        <div class="committee__group reveal">
+          <h3 class="committee__title">Co-Patrons</h3>
+          <ul class="member-list">
+            <li><strong>Dr. P. Ramesh Babu</strong><span>Dean</span></li>
+            <li><strong>Prof. J. Kishore Babu</strong><span>Dean — Academics</span></li>
+            <li><strong>Dr. K. Gouthami</strong><span>Dean — R&amp;D</span></li>
+          </ul>
+        </div>
+
+        <div class="committee__group reveal">
+          <h3 class="committee__title">Chairs &amp; Convener</h3>
+          <ul class="member-list">
+            <li><strong>Dr. Raenu A/L Kolandaisamy</strong><span>General Chair — Director, ICSDI, UCSI University, Malaysia</span></li>
+            <li><strong>Dr. Budati Anil Kumar</strong><span>Program Chair — KLH, Aziz Nagar Campus, Hyderabad</span></li>
+            <li><strong>Dr. Dommeti Vijaya Saradhi</strong><span>Convener — Head, Dept. of ECE, MLEW</span></li>
+            <li><strong>Dr. K. Swetha</strong><span>Co-Convener — Dean Placements, MLEW</span></li>
+            <li><strong>Dr. Ch. Ramesh</strong><span>Co-Convener — Professor, Dept. of CSE, MLEW</span></li>
+          </ul>
+        </div>
+
+        <div class="committee__group committee__group--wide reveal">
+          <h3 class="committee__title">Technical Program Committee</h3>
+          <ul class="member-list member-list--two">
+            <li><strong>Dr. S. Sudharani</strong><span>Scientist G, DLRL, Hyderabad</span></li>
+            <li><strong>Dr. Achyut Shankar</strong><span>UW, UK</span></li>
+            <li><strong>Dr. Li Xingwang</strong><span>HPU, China</span></li>
+            <li><strong>Dr. Jafar A. Alzubi</strong><span>ABAU, Jordan</span></li>
+            <li><strong>Dr. Syala Islam</strong><span>UCSI, Malaysia</span></li>
+            <li><strong>Dr. Pooja Jain</strong><span>IIIT, Nagpur</span></li>
+            <li><strong>Dr. S. Gunasundhari</strong><span>PU, Pondicherry</span></li>
+            <li><strong>Dr. Anil K. Naik</strong><span>NIT Warangal</span></li>
+            <li><strong>Dr. Dileep Kumar Yadav</strong><span>Bennett University, Noida</span></li>
+            <li><strong>Dr. Soumya Ranjan Nayak</strong><span>AU, Noida</span></li>
+            <li><strong>Mr. G. Ramanjaneya Reddy</strong><span>Scientist 'E', RCI, Hyderabad</span></li>
+            <li><strong>Dr. Sudha Rani</strong><span>Scientist 'G', DLRL, Hyderabad</span></li>
+            <li><strong>Dr. P. Trinatha Rao</strong><span>GU, Hyderabad</span></li>
+            <li><strong>Dr. R. Arthi</strong><span>SRM University, Chennai</span></li>
+            <li><strong>Mr. R. N. A. Kumar Kuncham</strong><span>PE, Continental Automotive, Bengaluru</span></li>
+          </ul>
+        </div>
+
+        <div class="committee__group committee__group--wide reveal">
+          <h3 class="committee__title">Organizing Committee</h3>
+          <ul class="member-list member-list--two">
+            <li><strong>Dr. G. Ramaswami</strong><span>HOD — Dept. of CSE</span></li>
+            <li><strong>Dr. K. Sunitha</strong><span>HOD — Dept. of IT</span></li>
+            <li><strong>Prof. N. Hari Krishna</strong><span>HOD — Dept. of CSE-DS</span></li>
+            <li><strong>Dr. N. Charles Jaya Rao</strong><span>HOD — Dept. of AI&amp;DS</span></li>
+            <li><strong>Dr. D. Ravi Kiran</strong><span>HOD — Dept. of AI&amp;ML</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Schedule ===== -->
+  <section class="section section--alt" id="schedule">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Program Schedule</span>
+        <h2>Conference day — 26 April 2025</h2>
+      </div>
+      <div class="schedule__pending reveal">
+        <div class="schedule__icon">🗓️</div>
+        <h3>Detailed schedule — Update soon</h3>
+        <p>
+          The tentative program schedule will be published here. In the meantime, please note the
+          key deadline:
+        </p>
+        <div class="schedule__keydate">
+          <span>Last date for submission of papers / articles</span>
+          <strong>20 March 2025</strong>
+        </div>
+        <a href="#cfp" class="btn btn--ghost">View Call for Papers</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Get in touch</h2>
+      </div>
+
+      <div class="contact__grid">
+        <article class="contact-card reveal">
+          <span class="contact-card__tag">Convenor</span>
+          <h3>Dr. Dommeti Vijaya Saradhi</h3>
+          <p class="contact-card__title">Head — Department of ECE, MLEW, Guntur, A.P., India</p>
+          <a class="contact-card__line" href="tel:+919052222407">📞 +91-90522 22407</a>
+          <a class="contact-card__line" href="mailto:acces2025@malinenicolleges.ac.in">✉️ acces2025@malinenicolleges.ac.in</a>
+        </article>
+
+        <article class="contact-card reveal">
+          <span class="contact-card__tag">Program Chair</span>
+          <h3>Dr. Budati Anil Kumar</h3>
+          <p class="contact-card__title">KLH, Aziz Nagar Campus, Hyderabad</p>
+          <a class="contact-card__line" href="tel:+919985054084">📞 +91-99850 54084</a>
+          <a class="contact-card__line" href="mailto:acces2025@malinenicolleges.ac.in">✉️ acces2025@malinenicolleges.ac.in</a>
+        </article>
+
+        <article class="contact-card contact-card--venue reveal">
+          <span class="contact-card__tag">Venue</span>
+          <h3>Malineni Lakshmaiah Women's Engineering College</h3>
+          <p class="contact-card__title">(Autonomous) Guntur, Andhra Pradesh, India</p>
+          <p class="contact-card__line">🌐 Hybrid Mode — 26 April 2025</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark">A<span>·</span>25</span>
+        <div>
+          <strong>ACCES-2025</strong>
+          <p>3<sup>rd</sup> International Conference on Advances in Communications, Computing &amp; Electronic Systems</p>
+        </div>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#cfp">Call for Papers</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#publication">Publication</a>
+        <a href="#registration">Registration</a>
+        <a href="#committee">Committee</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__meta">
+        <p>📍 MLEW, Guntur, Andhra Pradesh, India</p>
+        <p>✉️ acces2025@malinenicolleges.ac.in</p>
+        <p>Technical Sponsor — UCSI University, Malaysia</p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container">
+        <p>© 2025 ACCES-2025 · Malineni Lakshmaiah Women's Engineering College (Autonomous).</p>
+        <p>Hybrid · 26 April 2025</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+  }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: rgba(91, 124, 255, 0.35);
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1180px] px-6;
+  }
+  .gradient-text {
+    @apply bg-brand-grad-text bg-clip-text text-transparent;
+  }
+  .eyebrow {
+    @apply inline-block rounded-full bg-brand/10 px-3.5 py-1.5 font-display text-[0.78rem]
+      font-semibold uppercase tracking-[0.14em] text-brand;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-transparent
+      px-6 py-3.5 font-display text-[0.95rem] font-semibold leading-none transition
+      duration-300 ease-out;
+  }
+  .btn-primary {
+    @apply bg-brand-grad text-white shadow-brand hover:-translate-y-0.5;
+  }
+  .btn-ghost {
+    @apply border-line-strong bg-white/[0.04] text-ink hover:-translate-y-0.5
+      hover:border-brand hover:bg-brand/10;
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-surface;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3354;
+  border-radius: 999px;
+  border: 2px solid #0a0e1a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4570;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
