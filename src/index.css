@@ -68,4 +68,8 @@
   html {
     scroll-behavior: auto;
   }
+  /* Keep the decorative ticker scrolling even with reduced motion */
+  .animate-marquee {
+    animation-duration: 32s !important;
+  }
 }
