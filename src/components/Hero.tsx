@@ -48,9 +48,9 @@ export default function Hero() {
             variants={item}
             className="mb-5 font-display text-[clamp(2.1rem,5vw,3.5rem)] font-extrabold leading-[1.08] tracking-tight"
           >
-            Advances in{" "}
-            <span className="gradient-text">Communications, Computing</span>{" "}
-            &amp; Electronic Systems
+            Intelligent Computing,{" "}
+            <span className="gradient-text">Secure Communications</span>{" "}
+            and Emerging Technologies
           </motion.h1>
 
           <motion.p
