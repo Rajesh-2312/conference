@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { heroFacts, conference } from "../data/conference";
+import { heroFacts, conference, logos } from "../data/conference";
 import Icon from "./Icon";
 import Countdown from "./Countdown";
 
@@ -94,6 +94,11 @@ export default function Hero() {
             variants={item}
             className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.85rem] text-muted-2"
           >
+            <img
+              src={logos.seal}
+              alt="MLEW logo"
+              className="h-9 w-9 shrink-0 rounded-full bg-white object-contain p-0.5"
+            />
             <span>
               Hosted by <strong className="text-muted">{conference.host}</strong>
             </span>

@@ -26,6 +26,12 @@ export const conference = {
   previousProceedings: "https://printorders.aip.org/proceedings/2794",
 } as const;
 
+// Host college branding assets (place the files in /public)
+export const logos = {
+  seal: "/mlew-seal.png", // circular MLEW seal
+  banner: "/mlew-banner.png", // horizontal college banner
+} as const;
+
 export const navLinks = [
   { id: "home", label: "Home" },
   { id: "cfp", label: "Call for Papers" },

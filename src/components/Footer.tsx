@@ -1,5 +1,5 @@
 import { MapPin, Mail } from "lucide-react";
-import { navLinks, conference } from "../data/conference";
+import { navLinks, conference, logos } from "../data/conference";
 
 export default function Footer() {
   const footerLinks = navLinks.filter(
@@ -9,6 +9,11 @@ export default function Footer() {
     <footer className="border-t border-line bg-bg-soft pt-14">
       <div className="container-x grid gap-10 pb-10 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.2fr]">
         <div className="flex items-start gap-4">
+          <img
+            src={logos.seal}
+            alt="MLEW logo"
+            className="h-12 w-12 shrink-0 rounded-full bg-white object-contain p-0.5"
+          />
           <span className="rounded-xl bg-brand-grad px-2.5 py-2 font-display text-base font-extrabold leading-none text-white">
             I<span className="opacity-70">·</span>26
           </span>

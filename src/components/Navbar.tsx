@@ -1,10 +1,15 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { navLinks, conference } from "../data/conference";
+import { navLinks, conference, logos } from "../data/conference";
 import { useScrollSpy, useScrolled } from "../hooks/useScrollSpy";
 
 const Brand = () => (
   <a href="#home" className="flex items-center gap-3">
+    <img
+      src={logos.seal}
+      alt="Malineni Lakshmaiah Women's Engineering College (MLEW) logo"
+      className="h-11 w-11 shrink-0 rounded-full bg-white object-contain p-0.5"
+    />
     <span className="rounded-xl bg-brand-grad px-2.5 py-2 font-display text-base font-extrabold leading-none tracking-tight text-white">
       I<span className="opacity-70">·</span>26
     </span>
@@ -26,6 +31,17 @@ export default function Navbar() {
 
   return (
     <>
+      {/* Host college banner strip */}
+      <div className="border-b border-line bg-white">
+        <div className="container-x flex justify-center py-2.5">
+          <img
+            src={logos.banner}
+            alt="Malineni Lakshmaiah Women's Engineering College (Autonomous)"
+            className="h-12 w-auto object-contain sm:h-14"
+          />
+        </div>
+      </div>
+
       {/* Announcement bar */}
       <div className="border-b border-line bg-gradient-to-r from-brand/15 to-brand-2/15 text-[0.85rem]">
         <div className="container-x flex flex-wrap items-center justify-center gap-x-4 gap-y-1 py-2 text-center">
